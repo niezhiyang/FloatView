@@ -1,0 +1,4 @@
+include ':floatlibrary'
+include ':app'
+
+rootProject.name = "FloatView"
