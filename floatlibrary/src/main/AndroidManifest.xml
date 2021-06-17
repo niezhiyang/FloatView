@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nzy.floatting">
-
+    <application >
+        <provider
+            android:name=".InitProvider"
+            android:authorities="${applicationId}.float-init-provider"
+            android:exported="false"
+            android:multiprocess="true"/>
+    </application>
 </manifest>
